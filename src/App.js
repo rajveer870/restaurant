@@ -1,12 +1,12 @@
 import './App.css';
-import Button from './Component/Button';
-import Fooditem from './Component/Fooditem'; 
-import p1 from '../../restaurant/src/Component/assests/1.jpg';
-import p2 from '../../restaurant/src/Component/assests/2.jpg';
-import p3 from '../../restaurant/src/Component/assests/3.jpg';
-import p4 from '../../restaurant/src/Component/assests/4.jpg';
-import p5 from '../../restaurant/src/Component/assests/5.jpg';
-import p6 from '../../restaurant/src/Component/assests/6.jpg';
+import Button from './containers/Buttoncontainers';
+import Fooditem from './containers/fooditemcontainer';
+import p1 from '../../restaurant/src/Components/assests/1.jpg';
+import p2 from '../../restaurant/src/Components/assests/2.jpg';
+import p3 from '../../restaurant/src/Components/assests/3.jpg';
+import p4 from '../../restaurant/src/Components/assests/4.jpg';
+import p5 from '../../restaurant/src/Components/assests/5.jpg';
+import p6 from '../../restaurant/src/Components/assests/6.jpg';
 function App() {
   return (
     <div>
