@@ -9,11 +9,11 @@ const Fooditem = (props) => {
                 <img src={props.img} alt='' />
            </div>
            <div className="title">
-                <h1>Title name</h1>
+                <h1>{props.title}</h1>
            </div>
            <div className="des">
-              <p>write your description here.... </p>
-                <button>read more</button>
+              <p>{props.desc} </p>
+                <button className='btn3'>Add Item</button>
             </div>
         </div>
     )

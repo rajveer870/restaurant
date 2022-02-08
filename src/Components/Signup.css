@@ -1,0 +1,73 @@
+.form1{
+    height: 600px;
+    width: 400px;
+    position: absolute;
+    transform: translate(50%,50%);
+    top:-20%;
+    left:25%;
+    
+    border-radius: 10px;
+    backdrop-filter: blur(10px);
+    border: 2px solid rgba(255,255,255,0.1);
+    box-shadow: 0 0 40px rgba(8,7,16,0.6);
+    border-top:15px solid #8e582a;
+    border-bottom:15px solid #8e582a;
+    padding: 50px 35px;
+    margin-bottom:30px;
+}
+.form1 *{
+    font-family: 'Poppins',sans-serial;
+    letter-spacing: 0.5px;
+    outline: none;
+    border: none;
+}
+.btn1{
+    margin-top: 30px;
+    padding:12px;
+    font-size: 14px;
+    width:95%;
+    letter-spacing: 0.2rem;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+
+}
+.btn1:hover{
+    color:white;
+    background-color: #8e582a;
+}
+.Name{
+    display:flex;
+    flex-direction: row;
+}
+label{
+    display: block;
+    color:black;
+    margin-top: 30px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.form_field {
+    display: block;
+    height: 30px;
+    width: 95%;
+    background:transparent;
+    outline:0;
+    border-bottom:2px solid gray;
+    bottom:10px;
+    border-radius: 3px;
+    padding: 0 10px;
+    margin-top: 8px;
+    font-size: 14px;
+    font-weight: 300;
+}
+input::placeholder{
+    color: transparent;
+}
+::placeholder-shown ~ .form_label{
+    font: size 1.3em;
+    cursor:text;
+    top:20px
+}
+.title_container{
+    text-decoration: underline;
+}
