@@ -55,7 +55,7 @@ const Home = () => {
             </div>
            <div className="row">
                 <div className="button">
-                    <Button value="I’m hungry"/>
+                    <Button value="I am hungry"/>
                     <Button value="Show me more"/>
                 </div>
           </div>
